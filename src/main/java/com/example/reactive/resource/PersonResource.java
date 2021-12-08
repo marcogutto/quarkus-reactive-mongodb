@@ -29,7 +29,7 @@ public class PersonResource {
     @GET
     @Path("/{id}")
     public Uni<Person> get(@PathParam("id") String id) {
-        return Person.findById(new ObjectId(id));
+        return Person.findById(id);
     }
 
     @POST
