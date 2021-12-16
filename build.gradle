@@ -14,12 +14,12 @@ dependencies {
     implementation 'io.quarkus:quarkus-smallrye-health'
     implementation 'io.quarkus:quarkus-mongodb-panache'
     implementation 'io.quarkus:quarkus-resteasy-reactive-jackson'
-    implementation 'org.mapstruct:mapstruct:1.4.2.Final'
+    // implementation 'org.mapstruct:mapstruct:1.4.2.Final'
     
-    compileOnly 'org.projectlombok:lombok:1.18.22'
-	annotationProcessor 'org.projectlombok:lombok:1.18.22'
+    compileOnly 'org.projectlombok:lombok:1.18.18'
+	annotationProcessor 'org.projectlombok:lombok:1.18.18'
 	
-    annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
+    // annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
     
 
     testImplementation 'io.quarkus:quarkus-junit5'
