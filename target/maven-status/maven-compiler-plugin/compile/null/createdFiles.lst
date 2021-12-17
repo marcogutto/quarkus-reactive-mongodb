@@ -1,0 +1,4 @@
+com\example\reactive\domain\Person.class
+com\example\reactive\domain\Status.class
+com\example\reactive\resource\PersonResource.class
+META-INF\panache-archive.marker
